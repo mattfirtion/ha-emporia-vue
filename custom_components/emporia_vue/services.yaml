@@ -11,9 +11,6 @@ set_charger_current:
     device:
       manufacturer: Emporia
       model: VVDN01
-      entity:
-        integration: emporia_vue
-        device_class: outlet
   # Different fields that your service accepts
   fields:
     # Key of the field
